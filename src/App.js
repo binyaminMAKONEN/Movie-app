@@ -3,7 +3,8 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 import MovisCard from "./MovisCard";
 
-const API_URL = " http://www.omdbapi.com?apikey=e9c35e23";
+// Base url for the OMDb API
+const API_URL = "http://www.omdbapi.com?apikey=e9c35e23";
 
 const App = () => {
   const [movies, setMovis] = useState([]);
